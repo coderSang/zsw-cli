@@ -1,0 +1,31 @@
+{
+  "name": "zsw",
+  "version": "1.0.0",
+  "description": "手写一个脚手架",
+  "main": "index.js",
+  "bin": {
+    "zsw": "./bin/command.js",
+    "zsw-cli": "./bin/command.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderSang/zsw-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderSang/zsw-cli/issues"
+  },
+  "homepage": "https://github.com/coderSang/zsw-cli#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "jade": "^1.11.0",
+    "progress": "^2.0.3"
+  }
+}
